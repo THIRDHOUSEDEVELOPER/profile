@@ -5,9 +5,3 @@ AOS.init({
 });
 
 // Add your javascript here
-$(document).ready(function() {
-  $('#about, #about1').hide();
-  $('#showdetail').click(function() {
-      $('#about, #about1').toggle("slide");
-  });
-});
